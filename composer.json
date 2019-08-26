@@ -1,5 +1,13 @@
 {
+    "name": "leandrosantos/php-composer",
     "require": {
-        "phpmailer/phpmailer": "^6.0"
-    }
+        "phpmailer/phpmailer": "^6.0",
+        "symfony/var-dumper": "4.3.3"
+    },
+    "authors": [
+        {
+            "name": "LeandroSantos",
+            "email": "santosdeveloper@gmail.com"
+        }
+    ]
 }
