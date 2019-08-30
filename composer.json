@@ -1,8 +1,14 @@
 {
     "name": "leandrosantos/php-composer",
+
+    "minimum-stability": "dev",
+
     "require": {
         "phpmailer/phpmailer": "^6.0",
-        "symfony/var-dumper": "4.3.3"
+        "symfony/var-dumper": "4.3.3",
+        "php-activerecord/php-activerecord": "^1.2",
+        "cboden/ratchet": "^0.4.1",
+        "swiftmailer/swiftmailer": "^6.2@dev"
     },
     "authors": [
         {
