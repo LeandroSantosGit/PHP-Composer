@@ -5,7 +5,6 @@ ______
 \____/\____/_/ /_/ /_/ .___/\____/____/\___/_/
 /_/
 
-
 O Composer é uma ferramenta para gerenciamento de dependências em PHP. Ele permite que você declare pacotes (bibliotecas, frameworks, classes, etc), das quais seu projeto depende e as gerencia para você.
 
 
