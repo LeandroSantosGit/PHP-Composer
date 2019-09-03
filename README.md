@@ -1,7 +1,6 @@
 ## Composer - guia prático
 
-O Composer é uma ferramenta para gerenciamento de dependências em PHP. Ele permite que você declare pacotes (bibliotecas, frameworks, classes, etc), das quais seu projeto depende e as gerencia para você.
-
+O Composer é uma ferramenta para gerenciamento de dependências em PHP, um verdadeiro maestro de um projeto. Ele permite que você declare pacotes (bibliotecas, frameworks, classes, etc), das quais seu projeto depende e as gerencia para você.
 
 #### Diretórios e Arquivos
 
@@ -9,9 +8,6 @@ O Composer é uma ferramenta para gerenciamento de dependências em PHP. Ele per
 * **vendor/autoload.php** -> informações de bibliotecas de carregamento automático. 
 * **composer.json** -> descreve as dependências do projeto e outros metadados.
 * **composer.lock** -> grava todas as versões e pacotes baixados.
-* 
-
-
 
 #### Comandos básico
 
@@ -23,73 +19,118 @@ composer install
 
 Instalar as dependências do projeto como desenvolvimento.
 
-* composer install --dev
+```javascript
+composer install --dev
+```
 
 A versão do composer
 
-* composer -v
+```javascript
+composer -v
+```
 
 Lista completa de comandos
 
-* composer --help
+```javascript
+composer --help
+```
 
 Diagnostico de permissões e atualização
 
-* composer diagnose
+```javascript
+composer diagnose
+```
 
 Atulizar o composer para ultima versão
 
-* composer self-update
+```javascript
+composer self-update
+```
 
 Cria um novo projeto
 
-* composer int
+```javascript
+composer int
+```
 
 Atualizar automaticamente para versões mais recentes as dependências. 
 
-* composer update
+```javascript
+composer update
+```
 
 Atualizar dependência especifica 
 
-* composer update vendor/ .../  ...
+```javascript
+composer update vendor/ .../  ...
+```
 
 Remove pacotes do composer.json 
 
-* composer remove vendor/ .../  ...
+```javascript
+composer remove vendor/ .../  ...
+```
 
 Pesquisar nos repositórios de pacotes 
 
-* composer search 'coloque os termos'
+```javascript
+composer search 'coloque os termos'
+```
 
 Pacotes estão disponíveis e quais estão instalados
 
-* composer show
+```javascript
+composer show
+```
 
 Quais pacotes quais estão instalados
 
-* composer show --installed
+```javascript
+composer show --installed
+```
 
 Pacotes instalados que possuem atualizações disponíveis
 
-* composer show -lo
+```javascript
+composer show -lo
+```
 
 Quais pacotes dependem de outro pacote
 
-* composer depends vendor/ ...
+```javascript
+composer depends vendor/ ...
+```
 
 Quais pacotes dependem de outro pacote
 
-* composer info
+```javascript
+composer info
+```
 
 Validar o composer.json
 
-* composer validate
+```javascript
+composer validate
+```
 
 Verificar se há alterações locais nas dependências 
 
-* composer status
+```javascript
+composer status
+```
 
-Outros comando utilize a documentação.
-
+Utilize a documentação https://getcomposer.org/doc/
 
 #### Repositório do composer
+
+O Packagist é o repositório principal de pacotes do Composer e está ativado por padrão. Tudo o que é publicado no Packagist está disponível automaticamente através do Composer.
+
+##### Packagist: https://packagist.org/
+
+## Recursos Utilizados no Desenvolvimento do Estudo
+
+* [VS Code](https://code.visualstudio.com)
+* [Composer](https://getcomposer.org/)
+* [Packagist](https://packagist.org/)
+* [PHP 7.2.1](https://www.php.net/)
+* [PSR-4](https://www.php-fig.org/psr/)
