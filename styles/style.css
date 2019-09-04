@@ -1,0 +1,10 @@
+body {
+    margin:40;
+}
+
+main {
+    background-color: #18171B;
+    color: #56DB3A;
+    font: 14px Menlo, Monaco, Consolas, monospace;
+    white-space: pre-wrap;
+}

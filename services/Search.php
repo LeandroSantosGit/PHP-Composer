@@ -5,6 +5,6 @@ namespace asw\services;
 class Search {
 
     public function search() {
-        return 'Serviços';
+        return 'Serviços...';
     }
 }

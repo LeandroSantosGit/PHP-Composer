@@ -10,14 +10,13 @@
         "cboden/ratchet": "^0.4.1",
         "swiftmailer/swiftmailer": "^6.2@dev"
     },
-    "authors": {
+    "autoload": {
         "psr-4": {
             "app\\": "app",
             "asw\\": ["services", "jobs"]
         },
         "files": ["functions/helpers.php"]
     },
-
     "authors": [
         {
             "name": "LeandroSantos",

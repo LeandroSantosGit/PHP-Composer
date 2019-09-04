@@ -1,18 +1,7 @@
 <?php
 
-/* function add($dump) {
+function add($dump) {
 
-    var_dump($dump);
+    echo $dump;
     die();
-} */
-
-if (!function_exists('dd')) {
-    function dd(...$vars)
-    {
-        foreach ($vars as $v) {
-            VarDumper::dump($v);
-        }
- 
-        die(1);
-    }
 }

@@ -18,9 +18,15 @@ class ComposerStaticInita0b3670630dbb2bb840d3fa9ab3dfe34
         '6e60481d8c04e99474e2ba7b3658ab5a' => __DIR__ . '/..' . '/php-activerecord/php-activerecord/ActiveRecord.php',
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '98121ab9956ad9a33e419c932a40102b' => __DIR__ . '/../..' . '/functions/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'a' => 
+        array (
+            'asw\\' => 4,
+            'app\\' => 4,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php72\\' => 23,
@@ -64,6 +70,15 @@ class ComposerStaticInita0b3670630dbb2bb840d3fa9ab3dfe34
     );
 
     public static $prefixDirsPsr4 = array (
+        'asw\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/services',
+            1 => __DIR__ . '/../..' . '/jobs',
+        ),
+        'app\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
+        ),
         'Symfony\\Polyfill\\Php72\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
@@ -659,6 +674,10 @@ class ComposerStaticInita0b3670630dbb2bb840d3fa9ab3dfe34
         'Symfony\\Polyfill\\Intl\\Idn\\Idn' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/Idn.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php72\\Php72' => __DIR__ . '/..' . '/symfony/polyfill-php72/Php72.php',
+        'app\\Models\\Produto' => __DIR__ . '/../..' . '/app/models/Produto.php',
+        'app\\classes\\Email' => __DIR__ . '/../..' . '/app/classes/Email.php',
+        'asw\\jobs\\Register' => __DIR__ . '/../..' . '/jobs/Register.php',
+        'asw\\services\\Search' => __DIR__ . '/../..' . '/services/Search.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

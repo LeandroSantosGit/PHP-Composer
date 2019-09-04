@@ -500,4 +500,8 @@ return array(
     'Symfony\\Polyfill\\Intl\\Idn\\Idn' => $vendorDir . '/symfony/polyfill-intl-idn/Idn.php',
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Symfony\\Polyfill\\Php72\\Php72' => $vendorDir . '/symfony/polyfill-php72/Php72.php',
+    'app\\Models\\Produto' => $baseDir . '/app/models/Produto.php',
+    'app\\classes\\Email' => $baseDir . '/app/classes/Email.php',
+    'asw\\jobs\\Register' => $baseDir . '/jobs/Register.php',
+    'asw\\services\\Search' => $baseDir . '/services/Search.php',
 );
